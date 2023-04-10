@@ -8,7 +8,6 @@ import authRouter from './router/auth.js';
 import { config } from './config.js';
 import { Server } from 'socket.io'
 import { initSocket } from './connection/socket.js';
-
 import { connectDB } from './database/database.js';
 const app = express();
 
